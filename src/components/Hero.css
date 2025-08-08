@@ -1,0 +1,143 @@
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 60px;
+  background-color: #0f1147;
+  color: white;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.hero-left {
+  flex: 1;
+  padding-right: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tags {
+  margin-bottom: 20px;
+}
+
+.tag {
+  background-color: #1e215f;
+  border-radius: 12px;
+  padding: 6px 12px;
+  margin-right: 8px;
+  font-size: 0.9rem;
+}
+
+.hero-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  line-height: 1.2;
+}
+
+.highlight {
+  color: white;
+  font-weight: 700;
+}
+
+.hero-title-second-line {
+  color: white;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 6px;
+  text-decoration-color: #fbbf24;
+}
+
+.hero-subtext {
+  font-size: 1.2rem;
+  margin-bottom: 24px;
+}
+
+.hero-bold-text {
+  font-size: 1.3rem;
+  margin-bottom: 40px;
+}
+
+.hero-buttons .btn {
+  margin-right: 20px;
+  padding: 14px 28px;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.primary-btn {
+  background-color: #fbbf24;
+  color: #12154b;
+  font-weight: 700;
+  box-shadow: 0 4px 8px rgba(251, 191, 36, 0.5);
+}
+
+.secondary-btn {
+  background-color: white;
+  color: #12154b;
+  border: none;
+  font-weight: 700;
+  padding: 14px 28px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(251, 191, 36, 0.5);
+  transition: background-color 0.3s ease;
+}
+.secondary-btn:hover {
+  background-color: #fbbf24;
+  color: #12154b;
+}
+
+.trusted-text {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  color: #b0b3c6;
+}
+
+.shield-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glow-box {
+  background: #12154b;
+  border-radius: 24px;
+  padding: 40px 60px;
+  box-shadow: 0 0 40px rgba(18, 21, 75, 0.8);
+  text-align: center;
+  max-width: 320px;
+}
+
+.files-itr-text {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: white;
+}
+
+.tax-saved-box {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: white;
+}
+
+.tax-amount {
+  color: #fbbf24;
+  font-weight: 700;
+}
