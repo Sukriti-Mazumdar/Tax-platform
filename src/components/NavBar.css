@@ -1,0 +1,87 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #0f1147;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.5rem;
+  position: relative;
+  margin-right: 40px;
+}
+
+.tax-text {
+  letter-spacing: 2px;
+}
+
+.underline {
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 40px;
+  height: 4px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #b0b3c6;
+  transition: color 0.3s ease;
+}
+
+.nav-item:hover,
+.nav-item.active {
+  color: white;
+  border-bottom: 2px solid white;
+  padding-bottom: 4px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.login-text {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1rem;
+  color: white;
+}
+
+.consultation-btn {
+  background-color: white;
+  color: #12154b;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.consultation-btn:hover {
+  background-color: #fbbf24;
+  color: #12154b;
+}
